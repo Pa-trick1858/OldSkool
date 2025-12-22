@@ -5,3 +5,8 @@
 
 slide_player:
   mode_attract_started: attract
+
+sound_player:
+  mode_attract_started: 
+    house_of_pain_jump_around:
+      bus: music

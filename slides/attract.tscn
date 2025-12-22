@@ -1,0 +1,27 @@
+[gd_scene load_steps=2 format=3 uid="uid://icucrh1xnya"]
+
+[ext_resource type="Script" uid="uid://b71flh26t4pof" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_r1mnt"]
+
+[node name="Attract" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_r1mnt")
+metadata/_custom_type_script = "uid://b71flh26t4pof"
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+color = Color(0.84705883, 0.27058825, 1, 1)
+
+[node name="Label" type="Label" parent="ColorRect"]
+layout_mode = 0
+offset_left = 17.0
+offset_top = 415.0
+offset_right = 1911.0
+offset_bottom = 705.0
+pivot_offset = Vector2(64, 8)
+theme_override_font_sizes/font_size = 120
+text = "Welcome to OldSkool"
+horizontal_alignment = 1
+vertical_alignment = 1
