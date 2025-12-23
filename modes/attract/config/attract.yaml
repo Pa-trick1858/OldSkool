@@ -8,5 +8,5 @@ slide_player:
 
 sound_player:
   mode_attract_started: 
-    house_of_pain_jump_around:
-      bus: music
+	house_of_pain_jump_around:
+	  bus: music

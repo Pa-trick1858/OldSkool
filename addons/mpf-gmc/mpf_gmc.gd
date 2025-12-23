@@ -1,4 +1,4 @@
-extends LoggingNode
+
 
 const CONFIG_PATH = "res://gmc.cfg"
 const LOCAL_CONFIG_PATH = "user://gmc.local.cfg"
